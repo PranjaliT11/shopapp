@@ -1,0 +1,151 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.product-card{
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: 0px 10px 20px 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+    border-radius: 3px;
+
+}
+
+.favorites-div{
+  text-align: end;
+  margin: 4px 12px 0px 0px;
+}
+
+.pro-image{
+  width: 60%;
+  /* padding: 0px 20px; */
+  margin: 10px 0px;
+  height: 170px;
+
+}
+
+.pro-image:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.product-details{
+  width: 100%;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.product-image-container{
+  text-align: center;
+  border-bottom: 0.3px solid lightgray;
+}
+
+
+.product-title{
+  font-family: sans-serif;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.product-details p span{
+  color: gray;
+}
+
+.price-tag{
+  font-size: medium;
+  display: flex;
+  align-items: center;
+}
+
+.price-tag span{
+  font-size: 11px;
+  color: gray;
+}
+
+
+/*---------- star rating ----------*/
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  height: 25px;
+  /* justify-content: center; */
+  /* margin-top: 50px; */
+}
+.back-stars {
+  display: flex;
+  color: rgb(132, 130, 130);
+  position: relative;
+  /* text-shadow: 4px 4px 10px #843a3a; */
+}
+.front-stars {
+  display: flex;
+  color: yellow;
+  overflow: hidden;
+  position: absolute;
+  /* text-shadow: 2px 2px 5px #d29b09; */
+  top: 0;
+  transition: all .5s
+}
+
+
+/* add to cart button */
+.Added-class{
+  background-color: rgb(248, 6, 6) !important;
+  color: #f9f9fa !important;
+}
+
+.addtocart svg{
+  vertical-align: inherit;
+}
+
+.addtocart{
+  display:block;
+  margin: 10px 0px;
+  border-radius:4px;
+  border:none;
+  /* font-size:15px; */
+  /* position:relative; */
+  background:#1161f5;
+  cursor:pointer;
+  height:2em;
+  color: white;
+  width:100%;
+  overflow:hidden;
+  transition:transform 0.1s;
+/*   z-index:1; */
+}
+
+.empty-fav{
+  box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+  height: 400px;
+  width: 950px;
+  /* position: fixed; */
+  /* right: 60px; */
+  border-radius: 5px;
+  /* margin: auto; */
+  text-align: center;
+}
+
+.empty-fav img{
+  width: 300px;
+}
