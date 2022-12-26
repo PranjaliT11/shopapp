@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+
 import './Cart.css'
 
 
@@ -58,7 +58,7 @@ function Cart(props){
     
     </div>
     )}): <div className='empty-cart'> <h2>Your Cart Is Empty</h2>
-        <img  src="https://www.nicepng.com/png/full/322-3224210_your-cart-is-currently-empty-empty-shopping-cart.png"/>
+        <img  src="https://kohinoornürnberg.de/assets/svg/cart-empty.svg"/>
         </div>}
     
 
