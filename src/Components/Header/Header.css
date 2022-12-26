@@ -174,8 +174,8 @@
   }
   .nav-link:hover{
     /* background-color: aquamarine; */
-    border-left: 4px solid rgb(230, 215, 5);
-    border-right: 4px solid rgb(230, 215, 5);
+    border-left: 4px solid rgb(131, 168, 50);
+    border-right: 4px solid rgb(131, 168, 50);
   }
   .cart-div{
     position: relative;
