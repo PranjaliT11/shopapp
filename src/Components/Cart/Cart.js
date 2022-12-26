@@ -66,11 +66,11 @@ function Cart(props){
 
    <div className='cart-total-container'>
 
-         <div className='dis-flex'><h3>Order Summary</h3></div>
-         <div className='dis-flex'><p>Subtotal</p> <span className='cart-product-value'>${TotalSub(cart)}</span></div>
-         <div className='dis-flex'><p>Shoping Estimate</p> <span className='cart-product-value'>$5</span></div>
-         <div className='dis-flex'><p>Tax Estimate</p> <span className='cart-product-value'>$5</span></div>
-         <div className='dis-flex order-total '><p>Order Total</p> <span>${CartTotal(TotalSub(cart))}</span></div>
+         <div className='table'><h3>Order Summary</h3></div>
+         <div className='table'><p>Subtotal</p> <span className='cart-product-value'>${TotalSub(cart)}</span></div>
+         <div className='table'><p>Shoping Estimate</p> <span className='cart-product-value'>$5</span></div>
+         <div className='table'><p>Tax Estimate</p> <span className='cart-product-value'>$5</span></div>
+         <div className='order-total '><p>Order Total</p> <span>${CartTotal(TotalSub(cart))}</span></div>
    </div>
 
 

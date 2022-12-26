@@ -72,7 +72,7 @@
         border-radius: 5px;
     }
 
-    .cart-product-value , .dis-flex p {
+    .cart-product-value , .table p {
       color: grey;
       font-size: small;
     }
@@ -83,7 +83,7 @@
       color: black;
       font-size: 15px;
     }
-    .dis-flex{
+    .table{
       display: flex;
       justify-content: space-between;
       margin:12px 15px;
@@ -92,7 +92,7 @@
 
 
   
-    .dis-flex h3{
+    .table h3{
       margin:0px;
     }
 
@@ -129,5 +129,5 @@
       }
 
       .empty-cart img{
-        width: 300px;
+        width: 500px;
       }
