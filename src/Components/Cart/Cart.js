@@ -58,7 +58,7 @@ function Cart(props){
     
     </div>
     )}): <div className='empty-cart'> <h2>Your Cart Is Empty</h2>
-        <img  src="https://kohinoornürnberg.de/assets/svg/cart-empty.svg"/>
+        <img  src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-2130356-1800917.png"/>
         </div>}
     
 

@@ -32,11 +32,11 @@
 }
 
 
-      .cart-product-image-container{
+ .cart-product-image-container{
         text-align: left;
         width: 15%;
         overflow: hidden;
-      }
+ }
 
 
 .cart-pro-image{
@@ -129,5 +129,5 @@
       }
 
       .empty-cart img{
-        width: 500px;
+        width: 450px;
       }
